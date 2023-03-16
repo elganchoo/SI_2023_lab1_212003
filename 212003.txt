@@ -1,0 +1,41 @@
+1.
+2.
+3.
+4. mkdir SI_2023_lab1_212003
+cd SI_2023_lab1_212003
+git init
+5. git remote add origin git@github.com:elganchoo/SI_2023_lab1_212003.git
+6. touch README.md
+vim README.md
+git add .
+git commit -m "Initial commit"
+7. touch SILab1.java
+git add .
+git commit -m "Add java class"
+8. git push --all origin
+9. git branch bug1
+git branch bug2
+git branch bug3
+10. git checkout bug1
+11. git add .
+git commit -m "Fix wrong loop for reading"
+12. git checkout bug2
+13. git add .
+git commit -m "Fix wrong condition in filterOddNumbers"
+14. git checkout bug3
+15. git commit -am "Fix method sumEvenNumbers"
+16. git push --all origin
+17. git checkout master
+18. git merge bug1
+Немаше конфликт при извршување на наредбата.
+19. git push --all origin
+20. git merge bug2
+Немаше конфликт при спојувањето. Тоа се изврши користејќи ја стратегијата ort.
+21. git push --all origin
+22. git checkout bug3
+23. git rebase master
+24. git checkout master
+25. git merge bug3
+26. git push --all --force origin
+27.
+28.
