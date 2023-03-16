@@ -37,5 +37,8 @@ git commit -m "Fix wrong condition in filterOddNumbers"
 24. git checkout master
 25. git merge bug3
 26. git push --all --force origin
-27.
-28.
+27. touch logs.txt
+git log > logs.txt
+git add .
+28. git push --all origin
+
